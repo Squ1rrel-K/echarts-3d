@@ -1,0 +1,27 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.20.7",
+        "@babel/core": "^7.20.12",
+        "@babel/preset-env": "^7.20.2",
+        "@vue/cli-plugin-babel": "^5.0.8",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14"
+    },
+    "dependencies": {
+        "echarts": "^5.4.1",
+        "echarts-gl": "^2.0.9",
+        "jquery": "^3.6.3"
+    }
+}
